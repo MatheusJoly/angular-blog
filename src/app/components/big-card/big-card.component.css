@@ -1,8 +1,8 @@
 .container__big-card{
     width: 400px;
-    height: 500px;
+    height: 600px;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     justify-content: flex-start;
     margin-left: 20px;
@@ -14,15 +14,16 @@
 }
 
 .big-card__title > h1{
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 15px;
-    font-weight: bold;
+    font-weight: bolder;
 
 }
 .big-card__description{
     margin-top: 20px;
 }
 .big-card__description > p > a {
+    font-size: 22px;
 color: gray;
 
 
